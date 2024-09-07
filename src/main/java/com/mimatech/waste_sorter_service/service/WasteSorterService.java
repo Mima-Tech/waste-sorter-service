@@ -5,7 +5,9 @@ import org.springframework.web.multipart.MultipartFile;
 
 @Service
 public class WasteSorterService {
+
     public String sortImage(MultipartFile imageFile) {
-        return "Recycling";
+        System.out.println("Sorting Image...");
+        return "Garbage";
     }
 }
